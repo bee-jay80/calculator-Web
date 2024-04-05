@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculator</title>
+</head>
+<body>
+   <div class="main">
+    <input class="calc" type="text" id="res" disabled>
+    <div class="quad">
+        <input class="quad_inp" id="one" type="text">
+        <input class="quad_inp" id="two" type="text">
+        <input class="quad_inp" id="three" type="text">
+    </div>
+    <div class="btn">
+        <input type="button" class="btnn" onclick="Clear()" value="c">
+        <input type="button" class="btnn" onclick="Solve('%')" value="%">
+        <input type="button" class="btnn" onclick="Back('<=')" value="<=">
+        <input type="button" class="btnn" onclick="Solve('/')" value="/">
+        <br>
+        <input type="button" class="btnn" onclick="Solve('7')" value="7">
+        <input type="button" class="btnn" onclick="Solve('8')" value="8">
+        <input type="button" class="btnn" onclick="Solve('9')" value="9">
+        <input type="button" class="btnn" onclick="Solve('*')" value="x">
+        <br>
+        <input type="button" class="btnn" onclick="Solve('4')" value="4">
+        <input type="button" class="btnn" onclick="Solve('5')" value="5">
+        <input type="button" class="btnn" onclick="Solve('6')" value="6">
+        <input type="button" class="btnn" onclick="Solve('-')" value="-">
+        <br>
+        <input type="button" class="btnn" onclick="Solve('1')" value="1">
+        <input type="button" class="btnn" onclick="Solve('2')" value="2">
+        <input type="button" class="btnn" onclick="Solve('3')" value="3">
+        <input type="button" class="btnn" onclick="Solve('+')" value="+">
+        <br>
+        <input type="button" class="btnn" onclick="Quad()" value="quad">
+        <input type="button" class="btnn" onclick="Solve('0')" value="0">
+        <input type="button" class="btnn" onclick="Solve('.')" value=".">
+        <input type="button" class="btnn" onclick="Result()" value="=">
+        
+    </div>
+    <div class="change">
+
+        <div class="first" onclick="change1()"></div>
+        <div class="sec" onclick="change2()"></div>
+        <div class="third" onclick="change3()"></div>
+    </div>
+   </div>
+</body>
+<!-- <h1>edited</h1> -->
+<script src="calc.js"></script>
+</html>

@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #495250;
+    /* display: grid; */
+    /* height: 100vh; */
+    /* align-items: center; */
+}
+.quad{
+    width: 394px;
+    height:90px ;
+    background-color: #495250;
+    opacity: 0.93;
+}
+.quad_inp{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #bdc6c4;
+    color: rgb(131, 160, 137);
+}
+.main{
+    width: 400px;
+    height: 450px;
+    /* background-color: white; */
+    /* position: absolute; */
+    border-radius: 6px;
+    background-image:url(./calc.jpeg) ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    /* margin-bottom: auto; */
+}
+.calc{
+    width: 384px;
+    height: 80px;
+    /* position: relative; */
+    /* top: 5px; */
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    color:white;
+    background-color: #495250;
+
+    
+}
+.btnn{
+    width: 90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #495250;
+    color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.btnn:hover{
+    cursor: pointer;
+    box-shadow: 4px 0px 7px 0px #000000;
+    background-color: #bdc6c4;
+    color: #000000;
+    font-size: 1.5rem;
+    /* position: fixed; */
+}
+.none{
+    display: none;
+}
+.all{
+    display: block;
+}
+.default{
+    border: 3px solid rgb(214, 179, 0);
+    /* border: 3px solid rgb(30, 136, 0); */
+}
+.green{
+    border: 3px solid rgb(94, 185, 3);
+}
+.blue{
+    border: 3px solid rgb(0, 154, 243);
+}
+.blury{
+    border: 3px solid rgb(64, 54, 0);
+}
+.first{
+    border-radius: 10px;
+    border: 3px solid rgb(94, 185, 3);
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.sec{
+    border-radius: 10px;
+    border: 3px solid rgb(0, 154, 243);
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.third{
+    border-radius: 10px;
+    border: 3px solid rgb(64, 54, 0);
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.change{
+    display: flex;
+    margin-top: 20px;
+    /* margin: 0 auto; */
+    margin-left: 130px;
+}
+
+/* edited */
