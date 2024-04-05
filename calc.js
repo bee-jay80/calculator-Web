@@ -10,6 +10,7 @@ main.classList.add("default")
 calc.classList.add("default")
 // btn.classList.add("default")
 
+// getting all buttons for styling
 btn.forEach(btns => {
   btns.classList.add("default")
 })
