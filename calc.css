@@ -74,14 +74,15 @@ body{
     box-shadow: 4px 0px 7px 0px #000000;
     background-color: #bdc6c4;
     color: #000000;
-    font-size: 1.5rem;
+    transform:scale(1.1);
     /* position: fixed; */
+}
+
+.btnn:active {
+    transform: scale(0.9);
 }
 .none{
     display: none;
-}
-.all{
-    display: block;
 }
 .default{
     border: 3px solid rgb(214, 179, 0);

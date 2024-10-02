@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculator</title>
+</head>
+<body>
+   <div class="main">
+    <input class="calc" type="text" id="inp" disabled>
+    <div class="quad none">
+        <input class="quad_inp" id="one" type="text">
+        <input class="quad_inp" id="two" type="text">
+        <input class="quad_inp" id="three" type="text">
+    </div>
+    <div class="btn">
+        <input type="button" class="btnn" onclick="Clear()" value="c">
+        <input type="button" class="btnn signs"  value="%">
+        <input type="button" class="btnn" onclick="Delete()" value="<=">
+        <input type="button" class="btnn signs"  value="÷">
+        <br>
+        <input type="button" class="btnn numbers"  value="7">
+        <input type="button" class="btnn numbers"  value="8">
+        <input type="button" class="btnn numbers"  value="9">
+        <input type="button" class="btnn signs"  value="×">
+        <br>
+        <input type="button" class="btnn numbers"  value="4">
+        <input type="button" class="btnn numbers"  value="5">
+        <input type="button" class="btnn numbers"  value="6">
+        <input type="button" class="btnn signs"  value="-">
+        <br>
+        <input type="button" class="btnn numbers"  value="1">
+        <input type="button" class="btnn numbers"  value="2">
+        <input type="button" class="btnn numbers"  value="3">
+        <input type="button" class="btnn signs"  value="+">
+        <br>
+        <input type="button" class="btnn quad_toggle" onclick="toggleQuad()" value="quad">
+        <input type="button" class="btnn numbers"  value="0">
+        <input type="button" class="btnn numbers"  value=".">
+        <input type="button" class="btnn" onclick="Result()" value="=">
+        
+    </div>
+    <div class="change">
+
+        <div class="first" onclick="change1()"></div>
+        <div class="sec" onclick="change2()"></div>
+        <div class="third" onclick="change3()"></div>
+    </div>
+   </div>
+</body>
+<!-- <h1>edited</h1> -->
+<!-- <script src="calc.js"></script> -->
+<script src="script.js"></script>
+</html>

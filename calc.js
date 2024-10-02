@@ -49,11 +49,6 @@ function Result() {
       calc.classList.remove("none");
       calc.classList.add("all")
       result.value = `Result = ${g} or ${h}`
-      i.value = `Result`
-      j.value = `${g}`
-      k.value = `${h}`
-
-
     }
     else {
       let num1 = document.getElementById("res").value;
